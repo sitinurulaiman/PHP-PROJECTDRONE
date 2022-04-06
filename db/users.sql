@@ -32,7 +32,7 @@ CREATE TABLE `users` (
   `email` varchar(30) NOT NULL,
   `uname` varchar(50) NOT NULL,
   `pass` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Indexes for dumped tables

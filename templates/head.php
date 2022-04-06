@@ -20,7 +20,7 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#service">SERVICE</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     <li><a href="http://192.168.8.103:8501">CLASSIFY</a></li>
                     <li><a href="logout.php">LOGOUT</a></li>
                 </ul>
