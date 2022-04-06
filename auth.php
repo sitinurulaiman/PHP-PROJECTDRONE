@@ -41,11 +41,13 @@ if (isset($_POST['email']) && isset($_POST['uname'])
 
 	else{
 
-	    $sql = "SELECT * FROM users WHERE uname ='$uname' ";
+		// $pass = md5($pass);
+
+	    $sql = "SELECT * FROM users WHERE email ='$email' ";
 		$result = mysqli_query($conn, $sql);
 
 		if (mysqli_num_rows($result) > 0) {
-			header("Location: register.php?error=The username is taken try another&$user_data");
+			header("Location: register.php?error=Email already exist&$user_data");
 	        exit();
 		}else {
            $sql2 = "INSERT INTO users(email, uname, pass ) VALUES('$email','$uname', '$pass' )";
