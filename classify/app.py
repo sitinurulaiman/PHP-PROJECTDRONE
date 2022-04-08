@@ -11,7 +11,7 @@ st.write("Simple Demonstration")
 file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
 
 st.write(f'''
-    <a target="_self" href="http://192.168.8.103/agri/">
+    <a target="_self" href="http://localhost/php-projectdrone/home.php">
         <button>
             HOME
         </button>

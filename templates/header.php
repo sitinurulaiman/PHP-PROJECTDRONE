@@ -17,10 +17,10 @@
 
         <div class="menu">
             <ul>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#service">SERVICE</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="/PHP-PROJECTDRONE/index.php#">HOME</a></li>
+                <li><a href="/PHP-PROJECTDRONE/index.php#about">ABOUT</a></li>
+                <li><a href="/PHP-PROJECTDRONE/index.php#service">SERVICE</a></li>
+                <li><a href="/PHP-PROJECTDRONE/index.php#contact">CONTACT</a></li>
                 <li><a href="register.php">REGISTER</a></li>
             </ul>
         </div>

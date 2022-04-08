@@ -25,6 +25,8 @@ if (isset($_POST['email']) && isset($_POST['pass'])){
     }
     else{
 
+        $pass = md5($pass);
+
         $sql = "SELECT * FROM users WHERE email='$email' AND pass='$pass'";
         $result = mysqli_query($conn, $sql);
 
