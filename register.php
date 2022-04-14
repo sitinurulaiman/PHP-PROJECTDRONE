@@ -32,16 +32,16 @@
                     <?php }?>
 
      	            <input type="password" name="pass" placeholder="Enter Password"><br>
-                     
                     <input type="password" name="repass" placeholder="Confirm Password"><br>
 
-                    <button class="btnn" type="submit" name ="submit">Register</button>
+                    <button class="btnn" type="submit" name ="submit"><b>Register</b></button>
                     
 
-                    <p class="link">Already have an account<br>
+                    <p class="link">Already have an account ?<br>
                         <a href="index.php">Log In</a> here</p>
 
         </form>
+
     </div>
 
 

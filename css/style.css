@@ -12,7 +12,7 @@ html {
 .main {
     margin: 0px;
     padding: 10px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('corndrone2.jpg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('corndrone2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,9 @@ html {
     top: 5px;
 }
 
+
 /*MENU BAR*/
+
 .navbar {
     height: 75px;
     position: fixed;
@@ -34,6 +36,39 @@ html {
     position: sticky;
     z-index: 2;
     box-shadow: 0 0 5px #000000;
+}
+
+.menu {
+    width: 400px;
+    margin-left: 860px;
+    height: 70px;
+}
+
+ul {
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover {
+    color: #FDFEFE;
 }
 
 .icon {
@@ -58,40 +93,7 @@ html {
     padding-top: 10px;
     margin-top: 5px;
     text-decoration: none;
-    list-style:none;
-}
-
-.menu {
-    width: 400px;
-    margin-left: 420px;
-    height: 70px;
-}
-
-ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li {
     list-style: none;
-    margin-left: 100px;
-    margin-top: 27px;
-    font-size: 14px;
-    padding-left: 5px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.5s ease-in-out;
-}
-
-ul li a:hover {
-    color: #FDFEFE;
 }
 
 .search {
@@ -173,11 +175,13 @@ ul li a:hover {
     font-size: 65px
 }
 
+
 /*Form*/
+
 .form {
     width: 250px;
     height: 350px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     position: absolute;
     top: -50px;
     left: 870px;
@@ -284,71 +288,73 @@ ul li a:hover {
 
 
 /*ABOUT*/
-.about{
-  background-color: #5CDB95;
-  padding: 5px;
-  height: 450px;
+
+.about {
+    background-color: #5CDB95;
+    padding: 5px;
+    height: 450px;
 }
 
-.about .title h2{
-  color: black;
-  font-size: 75px;
-  width: 1130px;
-  margin: 30px auto;
-  text-align: center;
+.about .title h2 {
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
 
-.about-text{
-  color: black;
+.about-text {
+    color: black;
 }
 
 
 /*SERVICE*/
-.service{
-  background: #184D47;
-  height: 700px;
-  padding: 5px;
+
+.service {
+    background: #184D47;
+    height: 700px;
+    padding: 5px;
 }
 
-.title h1{
-  color: white;
-  font-size: 75px;
-  width: 1130px;
-  margin: 30px auto;
-  text-align: center;
+.title h1 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
 
-.box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 200px;
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
 }
 
-.card{
-  height: 465px;
-  width: 335px;
-  padding: 20px 35px;
-  background: #5CDB95;
-  border-radius: 20px;
-  margin: 15px;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+.card {
+    height: 465px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #5CDB95;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
 
-h5{
-  color: #000000;
-  font-size: 23px;
-  margin-bottom: 20px;
-  padding-top: 15px;
+h5 {
+    color: #000000;
+    font-size: 23px;
+    margin-bottom: 20px;
+    padding-top: 15px;
 }
 
-.pra p{
-  color: #000000;
-  font-size: 16px;
-  line-height: 27px;
-  margin-bottom: 25px;
+.pra p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
 
 .card ion-icon {
@@ -361,7 +367,8 @@ h5{
 
 
 /*CONTACT*/
-.title h2{
+
+.title h2 {
     color: Black;
     font-size: 75px;
     width: 1130px;
@@ -369,7 +376,7 @@ h5{
     text-align: center;
 }
 
-.contact{
+.contact {
     background-color: #5CDB95;
     background-size: cover;
     height: 650px;
@@ -378,16 +385,16 @@ h5{
     overflow: hidden;
 }
 
-.left{
+.left {
     margin-left: 50px;
 }
 
-.location{
+.location {
     border-right: 6px solid #184D47;
     height: 500px;
 }
 
-.right{
+.right {
     margin-left: 50px;
 }
 
@@ -398,7 +405,6 @@ h5{
     padding-top: 5px;
     transition: 0.3s ease;
 }
-
 
 .error {
     background: #F2DEDE;
@@ -416,4 +422,14 @@ h5{
     width: 95%;
     border-radius: 5px;
     margin: 20px auto;
+}
+
+.res {
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #fff;
 }

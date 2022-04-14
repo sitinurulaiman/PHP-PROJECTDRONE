@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+//include start.php file on all secure pages
+include("start.php");
+?><!DOCTYPE html>
 <html lang="en">
 <?php include ('templates/head.php');?>
 <head>

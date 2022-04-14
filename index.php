@@ -18,10 +18,11 @@
 
                 <input type="email" name="email" placeholder="Email ">
                 <input type="password" name="pass" placeholder="Password">
-                <button class="btnn" type="submit">Login</button>
+                <button class="btnn" type="submit"><b>Login</b></button>
 
-                <p class="link">Don't have an account<br>
+                <p class="link">Don't have an account?<br>
                     <a href="register.php">Sign up </a> here</p>
+                <p class="res"><a href ="forgot.php">Forgot Password?</a></p>
                 <p class="liw">Log in with</p>
 
                 <div class="icons">

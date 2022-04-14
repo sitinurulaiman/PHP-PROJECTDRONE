@@ -1,5 +1,5 @@
 <?php 
-session_start(); 
+// session_start(); 
 include "config.php";
 
 if (isset($_POST['email']) && isset($_POST['uname'])
@@ -16,7 +16,6 @@ if (isset($_POST['email']) && isset($_POST['uname'])
 	$uname = validate($_POST['uname']);
 	$pass = validate($_POST['pass']);
 	$repass = validate($_POST['repass']);
-	
 
 	$user_data = 'uname='. $uname. '&email='. $email;
 
@@ -41,7 +40,7 @@ if (isset($_POST['email']) && isset($_POST['uname'])
 
 	else{
 
-		// $pass = md5($pass);
+		$pass = md5($pass);
 
 	    $sql = "SELECT * FROM users WHERE email ='$email' ";
 		$result = mysqli_query($conn, $sql);
